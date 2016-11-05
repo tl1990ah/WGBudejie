@@ -1,0 +1,33 @@
+//
+//  WGBudejie.pch
+//  WGBudejie
+//
+//  Created by taolei on 16/10/18.
+//  Copyright © 2016年 taolei. All rights reserved.
+//
+
+#ifdef __OBJC__
+        #import "UIView+WG.h"
+        #import "UIBarButtonItem+WGExtention.h"
+        #import "UIImageView+WebCache.h"
+
+#ifdef DEBUG
+#define WGLog(...) NSLog(__VA_ARGS__)
+#else
+#define WGLog(...)
+#endif
+
+#define WIDTH [[UIScreen mainScreen] bounds].size.width
+
+#define HEIGHT [[UIScreen mainScreen] bounds].size.height
+
+#define WGLogFunc WGLog(@"%s", __func__);
+// 颜色
+#define WGColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+// 随机色
+#define WGRandomColor WGColor(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
+#define WGGrayColor(v) WGColor((v), (v), (v))
+#define WGCommonBgColor WGGrayColor(206)
+
+#endif
