@@ -11,6 +11,7 @@
 		84415CCA1DC76D6B0068272D /* DALabeledCircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84415CC61DC76D6B0068272D /* DALabeledCircularProgressView.m */; };
 		84415CCB1DC76D6B0068272D /* LICENSE.md in Sources */ = {isa = PBXBuildFile; fileRef = 84415CC71DC76D6B0068272D /* LICENSE.md */; };
 		84415CCC1DC76D6B0068272D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 84415CC81DC76D6B0068272D /* README.md */; };
+		84CDCCCF1DCE021500D28D8B /* WGRecommendTagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CDCCCE1DCE021500D28D8B /* WGRecommendTagViewController.m */; };
 		FE288F3F1DC045F800A83E91 /* WGTopicFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = FE288F3E1DC045F800A83E91 /* WGTopicFrame.m */; };
 		FE288F421DC04EC300A83E91 /* WGTopicTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE288F411DC04EC300A83E91 /* WGTopicTitleView.m */; };
 		FE288F451DC0532200A83E91 /* WGTitleFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = FE288F441DC0532200A83E91 /* WGTitleFrame.m */; };
@@ -112,6 +113,8 @@
 		84415CC61DC76D6B0068272D /* DALabeledCircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DALabeledCircularProgressView.m; sourceTree = "<group>"; };
 		84415CC71DC76D6B0068272D /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 		84415CC81DC76D6B0068272D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		84CDCCCD1DCE021500D28D8B /* WGRecommendTagViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGRecommendTagViewController.h; sourceTree = "<group>"; };
+		84CDCCCE1DCE021500D28D8B /* WGRecommendTagViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGRecommendTagViewController.m; sourceTree = "<group>"; };
 		FE288F3D1DC045F800A83E91 /* WGTopicFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGTopicFrame.h; sourceTree = "<group>"; };
 		FE288F3E1DC045F800A83E91 /* WGTopicFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGTopicFrame.m; sourceTree = "<group>"; };
 		FE288F401DC04EC300A83E91 /* WGTopicTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGTopicTitleView.h; sourceTree = "<group>"; };
@@ -653,6 +656,8 @@
 				FE508D9E1DC731A700BDD07F /* WGTopicViewController.m */,
 				FE880F031DCB2EB9004092AC /* WGSeeBigPictureViewController.h */,
 				FE880F041DCB2EB9004092AC /* WGSeeBigPictureViewController.m */,
+				84CDCCCD1DCE021500D28D8B /* WGRecommendTagViewController.h */,
+				84CDCCCE1DCE021500D28D8B /* WGRecommendTagViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -998,6 +1003,7 @@
 				FEE5B2661DB5BC4400F98D66 /* WGTabBar.m in Sources */,
 				84415CC91DC76D6B0068272D /* DACircularProgressView.m in Sources */,
 				FE548F5B1DBEE78D00C307A4 /* UIImage+GIF.m in Sources */,
+				84CDCCCF1DCE021500D28D8B /* WGRecommendTagViewController.m in Sources */,
 				FE9307F31DC9F1700020DB13 /* WGTopicCommentView.m in Sources */,
 				FED05DFD1DBC9E4C001C68F3 /* WGVoiceViewController.m in Sources */,
 				FEE0F8A61DB76E1600C49FFC /* WGLoginRegisterViewController.m in Sources */,

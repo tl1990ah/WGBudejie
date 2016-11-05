@@ -15,6 +15,7 @@
 #import "WGWordViewController.h"
 #import "WGTopicViewController.h"
 #import "WGTopic.h"
+#import "WGRecommendTagViewController.h"
 
 @interface WGEssenceViewController ()<UIScrollViewDelegate>
 /** 当前选中的标题按钮 */
@@ -202,6 +203,8 @@
 - (void)tagClick
 {
     WGLogFunc
+    WGRecommendTagViewController *recommendTagVC = [[WGRecommendTagViewController alloc] init];
+    [self.navigationController pushViewController:recommendTagVC animated:YES];
 }
 
 @end
