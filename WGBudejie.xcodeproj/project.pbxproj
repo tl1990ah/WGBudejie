@@ -12,6 +12,8 @@
 		84415CCB1DC76D6B0068272D /* LICENSE.md in Sources */ = {isa = PBXBuildFile; fileRef = 84415CC71DC76D6B0068272D /* LICENSE.md */; };
 		84415CCC1DC76D6B0068272D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 84415CC81DC76D6B0068272D /* README.md */; };
 		84CDCCCF1DCE021500D28D8B /* WGRecommendTagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CDCCCE1DCE021500D28D8B /* WGRecommendTagViewController.m */; };
+		84CDCCD21DCE090300D28D8B /* WGRecommendTagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CDCCD11DCE090300D28D8B /* WGRecommendTagCell.m */; };
+		84CDCCD51DCE092100D28D8B /* WGRecommendTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CDCCD41DCE092100D28D8B /* WGRecommendTag.m */; };
 		FE288F3F1DC045F800A83E91 /* WGTopicFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = FE288F3E1DC045F800A83E91 /* WGTopicFrame.m */; };
 		FE288F421DC04EC300A83E91 /* WGTopicTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE288F411DC04EC300A83E91 /* WGTopicTitleView.m */; };
 		FE288F451DC0532200A83E91 /* WGTitleFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = FE288F441DC0532200A83E91 /* WGTitleFrame.m */; };
@@ -115,6 +117,10 @@
 		84415CC81DC76D6B0068272D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		84CDCCCD1DCE021500D28D8B /* WGRecommendTagViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGRecommendTagViewController.h; sourceTree = "<group>"; };
 		84CDCCCE1DCE021500D28D8B /* WGRecommendTagViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGRecommendTagViewController.m; sourceTree = "<group>"; };
+		84CDCCD01DCE090300D28D8B /* WGRecommendTagCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGRecommendTagCell.h; sourceTree = "<group>"; };
+		84CDCCD11DCE090300D28D8B /* WGRecommendTagCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGRecommendTagCell.m; sourceTree = "<group>"; };
+		84CDCCD31DCE092100D28D8B /* WGRecommendTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGRecommendTag.h; sourceTree = "<group>"; };
+		84CDCCD41DCE092100D28D8B /* WGRecommendTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGRecommendTag.m; sourceTree = "<group>"; };
 		FE288F3D1DC045F800A83E91 /* WGTopicFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGTopicFrame.h; sourceTree = "<group>"; };
 		FE288F3E1DC045F800A83E91 /* WGTopicFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGTopicFrame.m; sourceTree = "<group>"; };
 		FE288F401DC04EC300A83E91 /* WGTopicTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGTopicTitleView.h; sourceTree = "<group>"; };
@@ -672,6 +678,8 @@
 				FE880DDF1DCB045C004092AC /* WGUser.m */,
 				FE880DE11DCB0834004092AC /* WGComment.h */,
 				FE880DE21DCB0834004092AC /* WGComment.m */,
+				84CDCCD31DCE092100D28D8B /* WGRecommendTag.h */,
+				84CDCCD41DCE092100D28D8B /* WGRecommendTag.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -693,6 +701,8 @@
 				FE508D9B1DC70D8200BDD07F /* WGTopicPictureView.m */,
 				FE9307F11DC9F1700020DB13 /* WGTopicCommentView.h */,
 				FE9307F21DC9F1700020DB13 /* WGTopicCommentView.m */,
+				84CDCCD01DCE090300D28D8B /* WGRecommendTagCell.h */,
+				84CDCCD11DCE090300D28D8B /* WGRecommendTagCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -944,6 +954,7 @@
 				FE3BD0381DBF46F0001D493C /* WGTopicCell.m in Sources */,
 				FE3BD0351DBF429C001D493C /* README.md in Sources */,
 				FE548F2E1DBEE78200C307A4 /* MJRefreshStateHeader.m in Sources */,
+				84CDCCD21DCE090300D28D8B /* WGRecommendTagCell.m in Sources */,
 				FE548F5D1DBEE78D00C307A4 /* UIImageView+HighlightedWebCache.m in Sources */,
 				FE548F571DBEE78D00C307A4 /* SDWebImageDownloaderOperation.m in Sources */,
 				FE548F5A1DBEE78D00C307A4 /* UIButton+WebCache.m in Sources */,
@@ -1009,6 +1020,7 @@
 				FEE0F8A61DB76E1600C49FFC /* WGLoginRegisterViewController.m in Sources */,
 				FE548F2B1DBEE78200C307A4 /* MJRefreshBackStateFooter.m in Sources */,
 				FE548F301DBEE78200C307A4 /* MJRefreshConst.m in Sources */,
+				84CDCCD51DCE092100D28D8B /* WGRecommendTag.m in Sources */,
 				FE548F2C1DBEE78200C307A4 /* MJRefreshGifHeader.m in Sources */,
 				FE548F321DBEE78200C307A4 /* UIScrollView+MJRefresh.m in Sources */,
 				FE548F311DBEE78200C307A4 /* UIScrollView+MJExtension.m in Sources */,
