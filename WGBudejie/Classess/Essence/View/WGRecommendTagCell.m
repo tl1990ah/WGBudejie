@@ -87,7 +87,26 @@
 {
     _recommendTag = recommendTag;
     
-    [self.imageListView sd_setImageWithURL:[NSURL URLWithString:recommendTag.image_list] placeholderImage:[UIImage imageNamed:@"defaultUserIcon"]];
+    [self.imageListView sd_setImageWithURL:[NSURL URLWithString:recommendTag.image_list] placeholderImage:[UIImage imageNamed:@"defaultUserIcon"] completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
+        
+        //开启图形上下文
+        UIGraphicsBeginImageContext(image.size);
+        // 上下文
+        CGContextRef ctx = UIGraphicsGetCurrentContext();
+        
+        // 添加一个圆
+        CGRect rect = CGRectMake(0, 0, image.size.width, image.size.height);
+        CGContextAddEllipseInRect(ctx, rect);
+        
+        CGContextClip(ctx);
+        
+        [image drawInRect:rect];
+        
+        self.imageListView.image = UIGraphicsGetImageFromCurrentImageContext();
+        
+        UIGraphicsEndImageContext();
+        
+    }];
     
     self.themeNameLabel.text = recommendTag.theme_name;
     

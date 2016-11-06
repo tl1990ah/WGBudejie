@@ -53,7 +53,7 @@
         [MBProgressHUD hideHUD];
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         
-        
+        [MBProgressHUD showError:@"网络繁忙，请稍后再试！"];
     }];
 }
 
