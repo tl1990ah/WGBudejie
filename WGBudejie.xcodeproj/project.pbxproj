@@ -11,14 +11,29 @@
 		84415CCA1DC76D6B0068272D /* DALabeledCircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84415CC61DC76D6B0068272D /* DALabeledCircularProgressView.m */; };
 		84415CCB1DC76D6B0068272D /* LICENSE.md in Sources */ = {isa = PBXBuildFile; fileRef = 84415CC71DC76D6B0068272D /* LICENSE.md */; };
 		84415CCC1DC76D6B0068272D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 84415CC81DC76D6B0068272D /* README.md */; };
+		848AA0661DD3510F00C20A69 /* WGAllViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848AA05B1DD3510F00C20A69 /* WGAllViewController.m */; };
+		848AA0671DD3510F00C20A69 /* WGPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848AA05D1DD3510F00C20A69 /* WGPictureViewController.m */; };
+		848AA0681DD3510F00C20A69 /* WGTopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848AA05F1DD3510F00C20A69 /* WGTopicViewController.m */; };
+		848AA0691DD3510F00C20A69 /* WGVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848AA0611DD3510F00C20A69 /* WGVideoViewController.m */; };
+		848AA06A1DD3510F00C20A69 /* WGVoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848AA0631DD3510F00C20A69 /* WGVoiceViewController.m */; };
+		848AA06B1DD3510F00C20A69 /* WGWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848AA0651DD3510F00C20A69 /* WGWordViewController.m */; };
+		848AA06E1DD3515900C20A69 /* WGCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848AA06D1DD3515900C20A69 /* WGCommentViewController.m */; };
+		848AA07E1DD351EE00C20A69 /* WGToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 848AA0711DD351EE00C20A69 /* WGToolbar.m */; };
+		848AA07F1DD351EE00C20A69 /* WGTopicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 848AA0731DD351EE00C20A69 /* WGTopicCell.m */; };
+		848AA0801DD351EE00C20A69 /* WGTopicCommentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 848AA0751DD351EE00C20A69 /* WGTopicCommentView.m */; };
+		848AA0811DD351EE00C20A69 /* WGTopicPictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 848AA0771DD351EE00C20A69 /* WGTopicPictureView.m */; };
+		848AA0821DD351EE00C20A69 /* WGTopicTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 848AA0791DD351EE00C20A69 /* WGTopicTitleView.m */; };
+		848AA0831DD351EE00C20A69 /* WGTopicVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 848AA07B1DD351EE00C20A69 /* WGTopicVideoView.m */; };
+		848AA0841DD351EE00C20A69 /* WGTopicVoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 848AA07D1DD351EE00C20A69 /* WGTopicVoiceView.m */; };
+		848AA08C1DD3528D00C20A69 /* WGCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 848AA08B1DD3528D00C20A69 /* WGCommentCell.m */; };
+		848AA0981DD3538500C20A69 /* WGTitleFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 848AA0931DD3538500C20A69 /* WGTitleFrame.m */; };
+		848AA0991DD3538500C20A69 /* WGTopicContentFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 848AA0951DD3538500C20A69 /* WGTopicContentFrame.m */; };
+		848AA09A1DD3538500C20A69 /* WGTopicFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 848AA0971DD3538500C20A69 /* WGTopicFrame.m */; };
+		848AA09D1DD353A400C20A69 /* WGHottestCommentFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 848AA09C1DD353A400C20A69 /* WGHottestCommentFrame.m */; };
+		848AA0A01DD3549D00C20A69 /* WGCommentFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 848AA09F1DD3549D00C20A69 /* WGCommentFrame.m */; };
 		84CDCCCF1DCE021500D28D8B /* WGRecommendTagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CDCCCE1DCE021500D28D8B /* WGRecommendTagViewController.m */; };
 		84CDCCD21DCE090300D28D8B /* WGRecommendTagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CDCCD11DCE090300D28D8B /* WGRecommendTagCell.m */; };
 		84CDCCD51DCE092100D28D8B /* WGRecommendTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CDCCD41DCE092100D28D8B /* WGRecommendTag.m */; };
-		FE288F3F1DC045F800A83E91 /* WGTopicFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = FE288F3E1DC045F800A83E91 /* WGTopicFrame.m */; };
-		FE288F421DC04EC300A83E91 /* WGTopicTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE288F411DC04EC300A83E91 /* WGTopicTitleView.m */; };
-		FE288F451DC0532200A83E91 /* WGTitleFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = FE288F441DC0532200A83E91 /* WGTitleFrame.m */; };
-		FE288F481DC09F4300A83E91 /* WGToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = FE288F471DC09F4300A83E91 /* WGToolbar.m */; };
-		FE3B8CEF1DC1D27F002FA207 /* WGTopicContentFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3B8CEE1DC1D27F002FA207 /* WGTopicContentFrame.m */; };
 		FE3BD00D1DBF3D45001D493C /* WGTopic.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3BD00C1DBF3D45001D493C /* WGTopic.m */; };
 		FE3BD0291DBF429C001D493C /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = FE3BD00F1DBF429C001D493C /* LICENSE */; };
 		FE3BD02A1DBF429C001D493C /* MJDictionaryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3BD0121DBF429C001D493C /* MJDictionaryCache.m */; };
@@ -33,11 +48,6 @@
 		FE3BD0331DBF429C001D493C /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3BD0251DBF429C001D493C /* NSObject+MJProperty.m */; };
 		FE3BD0341DBF429C001D493C /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3BD0271DBF429C001D493C /* NSString+MJExtension.m */; };
 		FE3BD0351DBF429C001D493C /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = FE3BD0281DBF429C001D493C /* README.md */; };
-		FE3BD0381DBF46F0001D493C /* WGTopicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3BD0371DBF46F0001D493C /* WGTopicCell.m */; };
-		FE508D961DC70D4100BDD07F /* WGTopicVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE508D951DC70D4100BDD07F /* WGTopicVideoView.m */; };
-		FE508D991DC70D5D00BDD07F /* WGTopicVoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE508D981DC70D5D00BDD07F /* WGTopicVoiceView.m */; };
-		FE508D9C1DC70D8200BDD07F /* WGTopicPictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE508D9B1DC70D8200BDD07F /* WGTopicPictureView.m */; };
-		FE508D9F1DC731A700BDD07F /* WGTopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE508D9E1DC731A700BDD07F /* WGTopicViewController.m */; };
 		FE548F211DBEE78200C307A4 /* MJRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = FE548EF71DBEE78100C307A4 /* MJRefreshAutoFooter.m */; };
 		FE548F221DBEE78200C307A4 /* MJRefreshBackFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = FE548EF91DBEE78100C307A4 /* MJRefreshBackFooter.m */; };
 		FE548F231DBEE78200C307A4 /* MJRefreshComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = FE548EFB1DBEE78100C307A4 /* MJRefreshComponent.m */; };
@@ -78,14 +88,7 @@
 		FE880DE01DCB045C004092AC /* WGUser.m in Sources */ = {isa = PBXBuildFile; fileRef = FE880DDF1DCB045C004092AC /* WGUser.m */; };
 		FE880DE31DCB0834004092AC /* WGComment.m in Sources */ = {isa = PBXBuildFile; fileRef = FE880DE21DCB0834004092AC /* WGComment.m */; };
 		FE880F051DCB2EB9004092AC /* WGSeeBigPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE880F041DCB2EB9004092AC /* WGSeeBigPictureViewController.m */; };
-		FE9307F31DC9F1700020DB13 /* WGTopicCommentView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE9307F21DC9F1700020DB13 /* WGTopicCommentView.m */; };
-		FE9307F61DC9F6A80020DB13 /* WGCommentFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = FE9307F51DC9F6A80020DB13 /* WGCommentFrame.m */; };
 		FE97ACB31DC47DAC00FAE41E /* NSDate+WG.m in Sources */ = {isa = PBXBuildFile; fileRef = FE97ACB21DC47DAC00FAE41E /* NSDate+WG.m */; };
-		FED05DF71DBC9E20001C68F3 /* WGAllViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FED05DF61DBC9E20001C68F3 /* WGAllViewController.m */; };
-		FED05DFA1DBC9E3C001C68F3 /* WGVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FED05DF91DBC9E3C001C68F3 /* WGVideoViewController.m */; };
-		FED05DFD1DBC9E4C001C68F3 /* WGVoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FED05DFC1DBC9E4C001C68F3 /* WGVoiceViewController.m */; };
-		FED05E001DBC9E5A001C68F3 /* WGPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FED05DFF1DBC9E5A001C68F3 /* WGPictureViewController.m */; };
-		FED05E031DBC9E66001C68F3 /* WGWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FED05E021DBC9E66001C68F3 /* WGWordViewController.m */; };
 		FED05E301DBCAD2D001C68F3 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FED05E241DBCAD2D001C68F3 /* AFHTTPSessionManager.m */; };
 		FED05E311DBCAD2D001C68F3 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FED05E271DBCAD2D001C68F3 /* AFNetworkReachabilityManager.m */; };
 		FED05E321DBCAD2D001C68F3 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = FED05E291DBCAD2D001C68F3 /* AFSecurityPolicy.m */; };
@@ -115,22 +118,52 @@
 		84415CC61DC76D6B0068272D /* DALabeledCircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DALabeledCircularProgressView.m; sourceTree = "<group>"; };
 		84415CC71DC76D6B0068272D /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 		84415CC81DC76D6B0068272D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		848AA05A1DD3510F00C20A69 /* WGAllViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGAllViewController.h; sourceTree = "<group>"; };
+		848AA05B1DD3510F00C20A69 /* WGAllViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGAllViewController.m; sourceTree = "<group>"; };
+		848AA05C1DD3510F00C20A69 /* WGPictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGPictureViewController.h; sourceTree = "<group>"; };
+		848AA05D1DD3510F00C20A69 /* WGPictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGPictureViewController.m; sourceTree = "<group>"; };
+		848AA05E1DD3510F00C20A69 /* WGTopicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGTopicViewController.h; sourceTree = "<group>"; };
+		848AA05F1DD3510F00C20A69 /* WGTopicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGTopicViewController.m; sourceTree = "<group>"; };
+		848AA0601DD3510F00C20A69 /* WGVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGVideoViewController.h; sourceTree = "<group>"; };
+		848AA0611DD3510F00C20A69 /* WGVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGVideoViewController.m; sourceTree = "<group>"; };
+		848AA0621DD3510F00C20A69 /* WGVoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGVoiceViewController.h; sourceTree = "<group>"; };
+		848AA0631DD3510F00C20A69 /* WGVoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGVoiceViewController.m; sourceTree = "<group>"; };
+		848AA0641DD3510F00C20A69 /* WGWordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGWordViewController.h; sourceTree = "<group>"; };
+		848AA0651DD3510F00C20A69 /* WGWordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGWordViewController.m; sourceTree = "<group>"; };
+		848AA06C1DD3515900C20A69 /* WGCommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGCommentViewController.h; sourceTree = "<group>"; };
+		848AA06D1DD3515900C20A69 /* WGCommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGCommentViewController.m; sourceTree = "<group>"; };
+		848AA0701DD351EE00C20A69 /* WGToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGToolbar.h; sourceTree = "<group>"; };
+		848AA0711DD351EE00C20A69 /* WGToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGToolbar.m; sourceTree = "<group>"; };
+		848AA0721DD351EE00C20A69 /* WGTopicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGTopicCell.h; sourceTree = "<group>"; };
+		848AA0731DD351EE00C20A69 /* WGTopicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGTopicCell.m; sourceTree = "<group>"; };
+		848AA0741DD351EE00C20A69 /* WGTopicCommentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGTopicCommentView.h; sourceTree = "<group>"; };
+		848AA0751DD351EE00C20A69 /* WGTopicCommentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGTopicCommentView.m; sourceTree = "<group>"; };
+		848AA0761DD351EE00C20A69 /* WGTopicPictureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGTopicPictureView.h; sourceTree = "<group>"; };
+		848AA0771DD351EE00C20A69 /* WGTopicPictureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGTopicPictureView.m; sourceTree = "<group>"; };
+		848AA0781DD351EE00C20A69 /* WGTopicTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGTopicTitleView.h; sourceTree = "<group>"; };
+		848AA0791DD351EE00C20A69 /* WGTopicTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGTopicTitleView.m; sourceTree = "<group>"; };
+		848AA07A1DD351EE00C20A69 /* WGTopicVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGTopicVideoView.h; sourceTree = "<group>"; };
+		848AA07B1DD351EE00C20A69 /* WGTopicVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGTopicVideoView.m; sourceTree = "<group>"; };
+		848AA07C1DD351EE00C20A69 /* WGTopicVoiceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGTopicVoiceView.h; sourceTree = "<group>"; };
+		848AA07D1DD351EE00C20A69 /* WGTopicVoiceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGTopicVoiceView.m; sourceTree = "<group>"; };
+		848AA08A1DD3528D00C20A69 /* WGCommentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGCommentCell.h; sourceTree = "<group>"; };
+		848AA08B1DD3528D00C20A69 /* WGCommentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGCommentCell.m; sourceTree = "<group>"; };
+		848AA0921DD3538500C20A69 /* WGTitleFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGTitleFrame.h; sourceTree = "<group>"; };
+		848AA0931DD3538500C20A69 /* WGTitleFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGTitleFrame.m; sourceTree = "<group>"; };
+		848AA0941DD3538500C20A69 /* WGTopicContentFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGTopicContentFrame.h; sourceTree = "<group>"; };
+		848AA0951DD3538500C20A69 /* WGTopicContentFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGTopicContentFrame.m; sourceTree = "<group>"; };
+		848AA0961DD3538500C20A69 /* WGTopicFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGTopicFrame.h; sourceTree = "<group>"; };
+		848AA0971DD3538500C20A69 /* WGTopicFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGTopicFrame.m; sourceTree = "<group>"; };
+		848AA09B1DD353A400C20A69 /* WGHottestCommentFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGHottestCommentFrame.h; sourceTree = "<group>"; };
+		848AA09C1DD353A400C20A69 /* WGHottestCommentFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGHottestCommentFrame.m; sourceTree = "<group>"; };
+		848AA09E1DD3549D00C20A69 /* WGCommentFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGCommentFrame.h; sourceTree = "<group>"; };
+		848AA09F1DD3549D00C20A69 /* WGCommentFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGCommentFrame.m; sourceTree = "<group>"; };
 		84CDCCCD1DCE021500D28D8B /* WGRecommendTagViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGRecommendTagViewController.h; sourceTree = "<group>"; };
 		84CDCCCE1DCE021500D28D8B /* WGRecommendTagViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGRecommendTagViewController.m; sourceTree = "<group>"; };
 		84CDCCD01DCE090300D28D8B /* WGRecommendTagCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGRecommendTagCell.h; sourceTree = "<group>"; };
 		84CDCCD11DCE090300D28D8B /* WGRecommendTagCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGRecommendTagCell.m; sourceTree = "<group>"; };
 		84CDCCD31DCE092100D28D8B /* WGRecommendTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGRecommendTag.h; sourceTree = "<group>"; };
 		84CDCCD41DCE092100D28D8B /* WGRecommendTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGRecommendTag.m; sourceTree = "<group>"; };
-		FE288F3D1DC045F800A83E91 /* WGTopicFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGTopicFrame.h; sourceTree = "<group>"; };
-		FE288F3E1DC045F800A83E91 /* WGTopicFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGTopicFrame.m; sourceTree = "<group>"; };
-		FE288F401DC04EC300A83E91 /* WGTopicTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGTopicTitleView.h; sourceTree = "<group>"; };
-		FE288F411DC04EC300A83E91 /* WGTopicTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGTopicTitleView.m; sourceTree = "<group>"; };
-		FE288F431DC0532200A83E91 /* WGTitleFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGTitleFrame.h; sourceTree = "<group>"; };
-		FE288F441DC0532200A83E91 /* WGTitleFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGTitleFrame.m; sourceTree = "<group>"; };
-		FE288F461DC09F4300A83E91 /* WGToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGToolbar.h; sourceTree = "<group>"; };
-		FE288F471DC09F4300A83E91 /* WGToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGToolbar.m; sourceTree = "<group>"; };
-		FE3B8CED1DC1D27F002FA207 /* WGTopicContentFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGTopicContentFrame.h; sourceTree = "<group>"; };
-		FE3B8CEE1DC1D27F002FA207 /* WGTopicContentFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGTopicContentFrame.m; sourceTree = "<group>"; };
 		FE3BD00B1DBF3D45001D493C /* WGTopic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGTopic.h; sourceTree = "<group>"; };
 		FE3BD00C1DBF3D45001D493C /* WGTopic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGTopic.m; sourceTree = "<group>"; };
 		FE3BD00F1DBF429C001D493C /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
@@ -158,16 +191,6 @@
 		FE3BD0261DBF429C001D493C /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
 		FE3BD0271DBF429C001D493C /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
 		FE3BD0281DBF429C001D493C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		FE3BD0361DBF46F0001D493C /* WGTopicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGTopicCell.h; sourceTree = "<group>"; };
-		FE3BD0371DBF46F0001D493C /* WGTopicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGTopicCell.m; sourceTree = "<group>"; };
-		FE508D941DC70D4100BDD07F /* WGTopicVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGTopicVideoView.h; sourceTree = "<group>"; };
-		FE508D951DC70D4100BDD07F /* WGTopicVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGTopicVideoView.m; sourceTree = "<group>"; };
-		FE508D971DC70D5D00BDD07F /* WGTopicVoiceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGTopicVoiceView.h; sourceTree = "<group>"; };
-		FE508D981DC70D5D00BDD07F /* WGTopicVoiceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGTopicVoiceView.m; sourceTree = "<group>"; };
-		FE508D9A1DC70D8200BDD07F /* WGTopicPictureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGTopicPictureView.h; sourceTree = "<group>"; };
-		FE508D9B1DC70D8200BDD07F /* WGTopicPictureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGTopicPictureView.m; sourceTree = "<group>"; };
-		FE508D9D1DC731A700BDD07F /* WGTopicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGTopicViewController.h; sourceTree = "<group>"; };
-		FE508D9E1DC731A700BDD07F /* WGTopicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGTopicViewController.m; sourceTree = "<group>"; };
 		FE548EF61DBEE78100C307A4 /* MJRefreshAutoFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshAutoFooter.h; sourceTree = "<group>"; };
 		FE548EF71DBEE78100C307A4 /* MJRefreshAutoFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshAutoFooter.m; sourceTree = "<group>"; };
 		FE548EF81DBEE78100C307A4 /* MJRefreshBackFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshBackFooter.h; sourceTree = "<group>"; };
@@ -248,22 +271,8 @@
 		FE880DE21DCB0834004092AC /* WGComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGComment.m; sourceTree = "<group>"; };
 		FE880F031DCB2EB9004092AC /* WGSeeBigPictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGSeeBigPictureViewController.h; sourceTree = "<group>"; };
 		FE880F041DCB2EB9004092AC /* WGSeeBigPictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGSeeBigPictureViewController.m; sourceTree = "<group>"; };
-		FE9307F11DC9F1700020DB13 /* WGTopicCommentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGTopicCommentView.h; sourceTree = "<group>"; };
-		FE9307F21DC9F1700020DB13 /* WGTopicCommentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGTopicCommentView.m; sourceTree = "<group>"; };
-		FE9307F41DC9F6A80020DB13 /* WGCommentFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGCommentFrame.h; sourceTree = "<group>"; };
-		FE9307F51DC9F6A80020DB13 /* WGCommentFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGCommentFrame.m; sourceTree = "<group>"; };
 		FE97ACB11DC47DAC00FAE41E /* NSDate+WG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+WG.h"; sourceTree = "<group>"; };
 		FE97ACB21DC47DAC00FAE41E /* NSDate+WG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+WG.m"; sourceTree = "<group>"; };
-		FED05DF51DBC9E20001C68F3 /* WGAllViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGAllViewController.h; sourceTree = "<group>"; };
-		FED05DF61DBC9E20001C68F3 /* WGAllViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGAllViewController.m; sourceTree = "<group>"; };
-		FED05DF81DBC9E3C001C68F3 /* WGVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGVideoViewController.h; sourceTree = "<group>"; };
-		FED05DF91DBC9E3C001C68F3 /* WGVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGVideoViewController.m; sourceTree = "<group>"; };
-		FED05DFB1DBC9E4C001C68F3 /* WGVoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGVoiceViewController.h; sourceTree = "<group>"; };
-		FED05DFC1DBC9E4C001C68F3 /* WGVoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGVoiceViewController.m; sourceTree = "<group>"; };
-		FED05DFE1DBC9E5A001C68F3 /* WGPictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGPictureViewController.h; sourceTree = "<group>"; };
-		FED05DFF1DBC9E5A001C68F3 /* WGPictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGPictureViewController.m; sourceTree = "<group>"; };
-		FED05E011DBC9E66001C68F3 /* WGWordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGWordViewController.h; sourceTree = "<group>"; };
-		FED05E021DBC9E66001C68F3 /* WGWordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGWordViewController.m; sourceTree = "<group>"; };
 		FED05E231DBCAD2D001C68F3 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
 		FED05E241DBCAD2D001C68F3 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
 		FED05E251DBCAD2D001C68F3 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
@@ -340,17 +349,84 @@
 			path = DACircularProgress;
 			sourceTree = "<group>";
 		};
+		848AA0591DD3510F00C20A69 /* Topic */ = {
+			isa = PBXGroup;
+			children = (
+				848AA05A1DD3510F00C20A69 /* WGAllViewController.h */,
+				848AA05B1DD3510F00C20A69 /* WGAllViewController.m */,
+				848AA05C1DD3510F00C20A69 /* WGPictureViewController.h */,
+				848AA05D1DD3510F00C20A69 /* WGPictureViewController.m */,
+				848AA05E1DD3510F00C20A69 /* WGTopicViewController.h */,
+				848AA05F1DD3510F00C20A69 /* WGTopicViewController.m */,
+				848AA0601DD3510F00C20A69 /* WGVideoViewController.h */,
+				848AA0611DD3510F00C20A69 /* WGVideoViewController.m */,
+				848AA0621DD3510F00C20A69 /* WGVoiceViewController.h */,
+				848AA0631DD3510F00C20A69 /* WGVoiceViewController.m */,
+				848AA0641DD3510F00C20A69 /* WGWordViewController.h */,
+				848AA0651DD3510F00C20A69 /* WGWordViewController.m */,
+			);
+			path = Topic;
+			sourceTree = "<group>";
+		};
+		848AA06F1DD351EE00C20A69 /* Topic */ = {
+			isa = PBXGroup;
+			children = (
+				848AA0701DD351EE00C20A69 /* WGToolbar.h */,
+				848AA0711DD351EE00C20A69 /* WGToolbar.m */,
+				848AA0721DD351EE00C20A69 /* WGTopicCell.h */,
+				848AA0731DD351EE00C20A69 /* WGTopicCell.m */,
+				848AA0741DD351EE00C20A69 /* WGTopicCommentView.h */,
+				848AA0751DD351EE00C20A69 /* WGTopicCommentView.m */,
+				848AA0761DD351EE00C20A69 /* WGTopicPictureView.h */,
+				848AA0771DD351EE00C20A69 /* WGTopicPictureView.m */,
+				848AA0781DD351EE00C20A69 /* WGTopicTitleView.h */,
+				848AA0791DD351EE00C20A69 /* WGTopicTitleView.m */,
+				848AA07A1DD351EE00C20A69 /* WGTopicVideoView.h */,
+				848AA07B1DD351EE00C20A69 /* WGTopicVideoView.m */,
+				848AA07C1DD351EE00C20A69 /* WGTopicVoiceView.h */,
+				848AA07D1DD351EE00C20A69 /* WGTopicVoiceView.m */,
+			);
+			path = Topic;
+			sourceTree = "<group>";
+		};
+		848AA0891DD3527C00C20A69 /* Comment */ = {
+			isa = PBXGroup;
+			children = (
+				848AA08A1DD3528D00C20A69 /* WGCommentCell.h */,
+				848AA08B1DD3528D00C20A69 /* WGCommentCell.m */,
+			);
+			path = Comment;
+			sourceTree = "<group>";
+		};
+		848AA08D1DD3531A00C20A69 /* Comment */ = {
+			isa = PBXGroup;
+			children = (
+				848AA09E1DD3549D00C20A69 /* WGCommentFrame.h */,
+				848AA09F1DD3549D00C20A69 /* WGCommentFrame.m */,
+			);
+			path = Comment;
+			sourceTree = "<group>";
+		};
+		848AA08E1DD3531A00C20A69 /* Topic */ = {
+			isa = PBXGroup;
+			children = (
+				848AA0921DD3538500C20A69 /* WGTitleFrame.h */,
+				848AA0931DD3538500C20A69 /* WGTitleFrame.m */,
+				848AA0941DD3538500C20A69 /* WGTopicContentFrame.h */,
+				848AA0951DD3538500C20A69 /* WGTopicContentFrame.m */,
+				848AA0961DD3538500C20A69 /* WGTopicFrame.h */,
+				848AA0971DD3538500C20A69 /* WGTopicFrame.m */,
+			);
+			path = Topic;
+			sourceTree = "<group>";
+		};
 		FE288F3C1DC045DE00A83E91 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				FE288F3D1DC045F800A83E91 /* WGTopicFrame.h */,
-				FE288F3E1DC045F800A83E91 /* WGTopicFrame.m */,
-				FE288F431DC0532200A83E91 /* WGTitleFrame.h */,
-				FE288F441DC0532200A83E91 /* WGTitleFrame.m */,
-				FE3B8CED1DC1D27F002FA207 /* WGTopicContentFrame.h */,
-				FE3B8CEE1DC1D27F002FA207 /* WGTopicContentFrame.m */,
-				FE9307F41DC9F6A80020DB13 /* WGCommentFrame.h */,
-				FE9307F51DC9F6A80020DB13 /* WGCommentFrame.m */,
+				848AA09B1DD353A400C20A69 /* WGHottestCommentFrame.h */,
+				848AA09C1DD353A400C20A69 /* WGHottestCommentFrame.m */,
+				848AA08D1DD3531A00C20A69 /* Comment */,
+				848AA08E1DD3531A00C20A69 /* Topic */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -646,24 +722,15 @@
 		FEE5B2351DB5B1F500F98D66 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				848AA0591DD3510F00C20A69 /* Topic */,
 				FEE5B2601DB5B41E00F98D66 /* WGEssenceViewController.h */,
 				FEE5B2611DB5B41E00F98D66 /* WGEssenceViewController.m */,
-				FED05DF51DBC9E20001C68F3 /* WGAllViewController.h */,
-				FED05DF61DBC9E20001C68F3 /* WGAllViewController.m */,
-				FED05DF81DBC9E3C001C68F3 /* WGVideoViewController.h */,
-				FED05DF91DBC9E3C001C68F3 /* WGVideoViewController.m */,
-				FED05DFB1DBC9E4C001C68F3 /* WGVoiceViewController.h */,
-				FED05DFC1DBC9E4C001C68F3 /* WGVoiceViewController.m */,
-				FED05DFE1DBC9E5A001C68F3 /* WGPictureViewController.h */,
-				FED05DFF1DBC9E5A001C68F3 /* WGPictureViewController.m */,
-				FED05E011DBC9E66001C68F3 /* WGWordViewController.h */,
-				FED05E021DBC9E66001C68F3 /* WGWordViewController.m */,
-				FE508D9D1DC731A700BDD07F /* WGTopicViewController.h */,
-				FE508D9E1DC731A700BDD07F /* WGTopicViewController.m */,
 				FE880F031DCB2EB9004092AC /* WGSeeBigPictureViewController.h */,
 				FE880F041DCB2EB9004092AC /* WGSeeBigPictureViewController.m */,
 				84CDCCCD1DCE021500D28D8B /* WGRecommendTagViewController.h */,
 				84CDCCCE1DCE021500D28D8B /* WGRecommendTagViewController.m */,
+				848AA06C1DD3515900C20A69 /* WGCommentViewController.h */,
+				848AA06D1DD3515900C20A69 /* WGCommentViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -687,20 +754,8 @@
 		FEE5B2371DB5B1F500F98D66 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				FE3BD0361DBF46F0001D493C /* WGTopicCell.h */,
-				FE3BD0371DBF46F0001D493C /* WGTopicCell.m */,
-				FE288F401DC04EC300A83E91 /* WGTopicTitleView.h */,
-				FE288F411DC04EC300A83E91 /* WGTopicTitleView.m */,
-				FE288F461DC09F4300A83E91 /* WGToolbar.h */,
-				FE288F471DC09F4300A83E91 /* WGToolbar.m */,
-				FE508D941DC70D4100BDD07F /* WGTopicVideoView.h */,
-				FE508D951DC70D4100BDD07F /* WGTopicVideoView.m */,
-				FE508D971DC70D5D00BDD07F /* WGTopicVoiceView.h */,
-				FE508D981DC70D5D00BDD07F /* WGTopicVoiceView.m */,
-				FE508D9A1DC70D8200BDD07F /* WGTopicPictureView.h */,
-				FE508D9B1DC70D8200BDD07F /* WGTopicPictureView.m */,
-				FE9307F11DC9F1700020DB13 /* WGTopicCommentView.h */,
-				FE9307F21DC9F1700020DB13 /* WGTopicCommentView.m */,
+				848AA0891DD3527C00C20A69 /* Comment */,
+				848AA06F1DD351EE00C20A69 /* Topic */,
 				84CDCCD01DCE090300D28D8B /* WGRecommendTagCell.h */,
 				84CDCCD11DCE090300D28D8B /* WGRecommendTagCell.m */,
 			);
@@ -947,80 +1002,80 @@
 				FE3BD0321DBF429C001D493C /* NSObject+MJKeyValue.m in Sources */,
 				FE548F5F1DBEE78D00C307A4 /* UIView+WebCacheOperation.m in Sources */,
 				FE548F261DBEE78200C307A4 /* MJRefreshAutoGifFooter.m in Sources */,
+				848AA06E1DD3515900C20A69 /* WGCommentViewController.m in Sources */,
+				848AA06B1DD3510F00C20A69 /* WGWordViewController.m in Sources */,
 				FE880DE31DCB0834004092AC /* WGComment.m in Sources */,
+				848AA0671DD3510F00C20A69 /* WGPictureViewController.m in Sources */,
 				FED05E351DBCAD2D001C68F3 /* AFURLSessionManager.m in Sources */,
-				FE508D9C1DC70D8200BDD07F /* WGTopicPictureView.m in Sources */,
 				FEE5B2501DB5B2DE00F98D66 /* WGTabController.m in Sources */,
-				FE3BD0381DBF46F0001D493C /* WGTopicCell.m in Sources */,
 				FE3BD0351DBF429C001D493C /* README.md in Sources */,
+				848AA0841DD351EE00C20A69 /* WGTopicVoiceView.m in Sources */,
 				FE548F2E1DBEE78200C307A4 /* MJRefreshStateHeader.m in Sources */,
 				84CDCCD21DCE090300D28D8B /* WGRecommendTagCell.m in Sources */,
 				FE548F5D1DBEE78D00C307A4 /* UIImageView+HighlightedWebCache.m in Sources */,
 				FE548F571DBEE78D00C307A4 /* SDWebImageDownloaderOperation.m in Sources */,
+				848AA0661DD3510F00C20A69 /* WGAllViewController.m in Sources */,
 				FE548F5A1DBEE78D00C307A4 /* UIButton+WebCache.m in Sources */,
-				FED05E001DBC9E5A001C68F3 /* WGPictureViewController.m in Sources */,
 				FEE5B21C1DB5ADEA00F98D66 /* AppDelegate.m in Sources */,
 				FEE5B2531DB5B36100F98D66 /* WGNavigationController.m in Sources */,
-				FE508D991DC70D5D00BDD07F /* WGTopicVoiceView.m in Sources */,
-				FED05E031DBC9E66001C68F3 /* WGWordViewController.m in Sources */,
+				848AA09D1DD353A400C20A69 /* WGHottestCommentFrame.m in Sources */,
 				FE548F541DBEE78D00C307A4 /* SDWebImageCompat.m in Sources */,
 				84415CCA1DC76D6B0068272D /* DALabeledCircularProgressView.m in Sources */,
-				FE288F481DC09F4300A83E91 /* WGToolbar.m in Sources */,
 				FE548F561DBEE78D00C307A4 /* SDWebImageDownloader.m in Sources */,
+				848AA08C1DD3528D00C20A69 /* WGCommentCell.m in Sources */,
 				FE548F521DBEE78D00C307A4 /* NSData+ImageContentType.m in Sources */,
 				FE548F231DBEE78200C307A4 /* MJRefreshComponent.m in Sources */,
 				FE548F661DBEE87600C307A4 /* MBProgressHUD+MJ.m in Sources */,
-				FE3B8CEF1DC1D27F002FA207 /* WGTopicContentFrame.m in Sources */,
 				FE548F241DBEE78200C307A4 /* MJRefreshFooter.m in Sources */,
-				FE508D961DC70D4100BDD07F /* WGTopicVideoView.m in Sources */,
+				848AA0681DD3510F00C20A69 /* WGTopicViewController.m in Sources */,
 				FEE5B2591DB5B3CD00F98D66 /* WGNewViewController.m in Sources */,
 				FE548F291DBEE78200C307A4 /* MJRefreshBackGifFooter.m in Sources */,
 				FE880F051DCB2EB9004092AC /* WGSeeBigPictureViewController.m in Sources */,
-				FE508D9F1DC731A700BDD07F /* WGTopicViewController.m in Sources */,
+				848AA0981DD3538500C20A69 /* WGTitleFrame.m in Sources */,
+				848AA07E1DD351EE00C20A69 /* WGToolbar.m in Sources */,
 				FEE5B2621DB5B41E00F98D66 /* WGEssenceViewController.m in Sources */,
 				84415CCB1DC76D6B0068272D /* LICENSE.md in Sources */,
-				FE288F421DC04EC300A83E91 /* WGTopicTitleView.m in Sources */,
 				FE880DE01DCB045C004092AC /* WGUser.m in Sources */,
 				FE3BD0341DBF429C001D493C /* NSString+MJExtension.m in Sources */,
 				FE548F2A1DBEE78200C307A4 /* MJRefreshBackNormalFooter.m in Sources */,
 				FED05E301DBCAD2D001C68F3 /* AFHTTPSessionManager.m in Sources */,
 				FE548F681DBEE87600C307A4 /* MBProgressHUD.m in Sources */,
+				848AA09A1DD3538500C20A69 /* WGTopicFrame.m in Sources */,
 				FE548F211DBEE78200C307A4 /* MJRefreshAutoFooter.m in Sources */,
 				FE548F551DBEE78D00C307A4 /* SDWebImageDecoder.m in Sources */,
 				FE3BD02A1DBF429C001D493C /* MJDictionaryCache.m in Sources */,
+				848AA0831DD351EE00C20A69 /* WGTopicVideoView.m in Sources */,
 				FE3BD02F1DBF429C001D493C /* MJPropertyType.m in Sources */,
 				84415CCC1DC76D6B0068272D /* README.md in Sources */,
 				FE548F5E1DBEE78D00C307A4 /* UIImageView+WebCache.m in Sources */,
 				FE548F581DBEE78D00C307A4 /* SDWebImageManager.m in Sources */,
 				FE548F221DBEE78200C307A4 /* MJRefreshBackFooter.m in Sources */,
+				848AA0991DD3538500C20A69 /* WGTopicContentFrame.m in Sources */,
 				FE548F251DBEE78200C307A4 /* MJRefreshHeader.m in Sources */,
 				FE744F971DB9A6AC00245DA3 /* UITextField+WG.m in Sources */,
-				FED05DFA1DBC9E3C001C68F3 /* WGVideoViewController.m in Sources */,
-				FE9307F61DC9F6A80020DB13 /* WGCommentFrame.m in Sources */,
 				FED05E311DBCAD2D001C68F3 /* AFNetworkReachabilityManager.m in Sources */,
 				FE3BD0331DBF429C001D493C /* NSObject+MJProperty.m in Sources */,
 				FE548F2D1DBEE78200C307A4 /* MJRefreshNormalHeader.m in Sources */,
+				848AA0811DD351EE00C20A69 /* WGTopicPictureView.m in Sources */,
 				FE97ACB31DC47DAC00FAE41E /* NSDate+WG.m in Sources */,
 				FE3BD02D1DBF429C001D493C /* MJProperty.m in Sources */,
 				FEE5B2561DB5B3A100F98D66 /* UIView+WG.m in Sources */,
 				FE3BD02E1DBF429C001D493C /* MJPropertyKey.m in Sources */,
-				FE288F3F1DC045F800A83E91 /* WGTopicFrame.m in Sources */,
 				FE3BD0301DBF429C001D493C /* NSObject+MJClass.m in Sources */,
 				FEE5B25C1DB5B3E800F98D66 /* WGMeViewController.m in Sources */,
+				848AA0801DD351EE00C20A69 /* WGTopicCommentView.m in Sources */,
 				FEE5B25F1DB5B40500F98D66 /* WGFollowViewController.m in Sources */,
 				FEE0F8741DB707F100C49FFC /* UIBarButtonItem+WGExtention.m in Sources */,
 				FEE5B2191DB5ADEA00F98D66 /* main.m in Sources */,
-				FE288F451DC0532200A83E91 /* WGTitleFrame.m in Sources */,
 				FEE5B2661DB5BC4400F98D66 /* WGTabBar.m in Sources */,
 				84415CC91DC76D6B0068272D /* DACircularProgressView.m in Sources */,
 				FE548F5B1DBEE78D00C307A4 /* UIImage+GIF.m in Sources */,
 				84CDCCCF1DCE021500D28D8B /* WGRecommendTagViewController.m in Sources */,
-				FE9307F31DC9F1700020DB13 /* WGTopicCommentView.m in Sources */,
-				FED05DFD1DBC9E4C001C68F3 /* WGVoiceViewController.m in Sources */,
 				FEE0F8A61DB76E1600C49FFC /* WGLoginRegisterViewController.m in Sources */,
 				FE548F2B1DBEE78200C307A4 /* MJRefreshBackStateFooter.m in Sources */,
 				FE548F301DBEE78200C307A4 /* MJRefreshConst.m in Sources */,
 				84CDCCD51DCE092100D28D8B /* WGRecommendTag.m in Sources */,
+				848AA0821DD351EE00C20A69 /* WGTopicTitleView.m in Sources */,
 				FE548F2C1DBEE78200C307A4 /* MJRefreshGifHeader.m in Sources */,
 				FE548F321DBEE78200C307A4 /* UIScrollView+MJRefresh.m in Sources */,
 				FE548F311DBEE78200C307A4 /* UIScrollView+MJExtension.m in Sources */,
@@ -1029,15 +1084,18 @@
 				FE548F5C1DBEE78D00C307A4 /* UIImage+MultiFormat.m in Sources */,
 				FED05E321DBCAD2D001C68F3 /* AFSecurityPolicy.m in Sources */,
 				FE548F271DBEE78200C307A4 /* MJRefreshAutoNormalFooter.m in Sources */,
+				848AA0691DD3510F00C20A69 /* WGVideoViewController.m in Sources */,
+				848AA06A1DD3510F00C20A69 /* WGVoiceViewController.m in Sources */,
 				FED05E341DBCAD2D001C68F3 /* AFURLResponseSerialization.m in Sources */,
 				FE548F591DBEE78D00C307A4 /* SDWebImagePrefetcher.m in Sources */,
 				FE548F331DBEE78200C307A4 /* UIView+MJExtension.m in Sources */,
+				848AA0A01DD3549D00C20A69 /* WGCommentFrame.m in Sources */,
 				FE3BD02C1DBF429C001D493C /* MJFoundation.m in Sources */,
 				FE548F281DBEE78200C307A4 /* MJRefreshAutoStateFooter.m in Sources */,
-				FED05DF71DBC9E20001C68F3 /* WGAllViewController.m in Sources */,
 				FE548F531DBEE78D00C307A4 /* SDImageCache.m in Sources */,
 				FE3BD02B1DBF429C001D493C /* MJExtensionConst.m in Sources */,
 				FE3BD00D1DBF3D45001D493C /* WGTopic.m in Sources */,
+				848AA07F1DD351EE00C20A69 /* WGTopicCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
